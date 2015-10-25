@@ -3,7 +3,6 @@
 
 using System;
 using System.Globalization;
-using System.Linq;
 using System.Net;
 using System.Security.Principal;
 using System.Threading.Tasks;
@@ -14,7 +13,6 @@ using Microsoft.AspNet.Http.Features.Authentication;
 using Microsoft.AspNet.Http.Features.Authentication.Internal;
 using Microsoft.Extensions.Internal;
 using Microsoft.Extensions.Primitives;
-using Microsoft.Net.Http.Headers;
 
 namespace Microsoft.AspNet.IISPlatformHandler
 {
